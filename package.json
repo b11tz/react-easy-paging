@@ -1,0 +1,41 @@
+{
+  "name": "react-easy-paging",
+  "version": "1.0.0",
+  "description": "A react component for easy pagination",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://b11tz@github.com/b11tz/react-easy-paging.git"
+  },
+  "keywords": [
+    "pagination"
+  ],
+  "author": "b11tz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/b11tz/react-easy-paging/issues"
+  },
+  "homepage": "https://github.com/b11tz/react-easy-paging#readme",
+  "devDependencies": {
+    "@types/react": "^16.9.49",
+    "@types/react-dom": "^16.9.8",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "rollup": "^2.26.10",
+    "rollup-plugin-typescript2": "^0.27.2",
+    "typescript": "^4.0.2"
+  }
+}
